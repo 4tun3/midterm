@@ -5,12 +5,21 @@ public sealed class Ellipse extends circle permits pkgShape.Ellipsoid(double num
           private double minorRadius();
           public boolean isCircle();
           
+          public void setMinorRadius(double yes){
+              this.minorRadius = yes;
+          }
+          
           public double getMinorRadius(){
               return this.minorRadius;
           }
           
-          public void setMinorRadius(double yes){
-              this.minorRadius = yes;
+          
+          if(num1 < 0){
+              throw IllegalArgumentException();
+          }
+          
+          if(num2 < 0){
+              throw IllegalArgumentException();
           }
           
           
