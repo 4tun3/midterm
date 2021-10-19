@@ -1,0 +1,8 @@
+package pkgShape;
+
+public abstract sealed class Shape permits pkgShape.Circle{
+
+      public void shape(){}
+      protected abstract double area();
+      
+}
