@@ -24,3 +24,6 @@ public sealed class Ellipse extends circle permits pkgShape.Ellipsoid(double num
           
           
 }
+
+
+assertEquals(628.32, c1Area, 0.01, 0.02);
