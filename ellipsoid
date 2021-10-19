@@ -1,0 +1,9 @@
+package pkgShape;
+
+public final class Ellipsoid extends Ellipse(double num1, double num2, double num3){
+
+          private double heightRadius();
+          public double volume();
+          
+          
+}
