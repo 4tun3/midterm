@@ -1,0 +1,18 @@
+package pkg.Shape;
+
+public sealed class Circle extends Shape permits pkgShape.Ellipse(double test){
+
+          private double radius();
+          public double area();
+          
+          
+          protected double getRadius(){
+              return this.radius;
+          }
+          
+          protected double setRadius(double num){
+              this.radius = num;
+          }
+          
+          
+}
