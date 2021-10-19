@@ -3,6 +3,7 @@ package pkgShape;
 public sealed class Ellipse extends circle permits pkgShape.Ellipsoid(double num1, double num2){
 
           private double minorRadius();
+          public boolean isCircle();
           
           public double getMinorRadius(){
               return this.minorRadius;
