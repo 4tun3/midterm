@@ -6,13 +6,16 @@ public sealed class Circle extends Shape permits pkgShape.Ellipse(double test){
           public double area();
           
           
-          protected double getRadius(){
-              return this.radius;
-          }
-          
           protected double setRadius(double num){
               this.radius = num;
           }
           
+          protected double getRadius(){
+              return this.radius;
+          }
+          
+
+          if (getRadius() > 0){
+              return
           
 }
