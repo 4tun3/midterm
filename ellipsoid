@@ -21,3 +21,7 @@ public final class Ellipsoid extends Ellipse(double num1, double num2, double nu
           }
           
 }
+
+
+
+assertEquals(20,943.95,c1Area, 0.01, 0.02, 0.025);
