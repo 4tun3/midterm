@@ -17,5 +17,6 @@ public sealed class Circle extends Shape permits pkgShape.Ellipse(double test){
 
           if (getRadius() < 0){
               throw new IllegalArgumentException();
+          }
           
 }
